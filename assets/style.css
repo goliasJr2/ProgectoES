@@ -1,0 +1,77 @@
+*{
+    font-family: inter;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    width: 800px;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 4px solid #047d4b;
+    border-radius: 100px;
+    height: 150px;
+    width: 18%;
+    padding-right: 50px;
+}
+.logo img{
+width: 70px;
+height: 100px;
+}
+
+.sdrs{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 50px; */
+    align-items: center;
+    
+}
+
+.sdrs1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: #047d4b;
+}
+
+.sdrs{
+    font-size: 18.3px;
+    font-weight: 600;
+}
+
+#banner{
+    background-image: url('../assets/img/fundoUEM.jpg');
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    filter: brightness(70%);
+
+}
+
+
